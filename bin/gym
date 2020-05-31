@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require './lib/enviornment.rb'
+
+GymFinder::CLI.new.call
+
