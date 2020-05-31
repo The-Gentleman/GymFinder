@@ -30,4 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'nokogiri', '~> 1.6', '>= 1.6.8'
   spec.add_development_dependency 'pry', '~> 0.13.1'
   spec.add_development_dependency 'bundler', '~> 2.1', '>= 2.1.4'
+  spec.add_development_dependency 'tty-prompt', '~> 0.21.0'
+
 end
