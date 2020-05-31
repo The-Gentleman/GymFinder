@@ -1,3 +1,4 @@
+
 RSpec.describe GymFinder do
   it "has a version number" do
     expect(GymFinder::VERSION).not_to be nil
