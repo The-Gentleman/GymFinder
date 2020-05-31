@@ -2,5 +2,5 @@
 
 require './lib/enviornment.rb'
 
-GymFinder::CLI.new.call
+GymFinder::CLI.new.greeting
 
