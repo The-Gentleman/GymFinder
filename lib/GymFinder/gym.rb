@@ -1,13 +1,13 @@
  class GymFinder::Gym 
-    # @@all = []
-    # attr_accessor :name, :address, :phone_number, :review 
+    @@gyms = []
+    # attr_accessor :name , :address, :phone_number, :review 
 
-    def initialize(name, address, phone_number, review)
+   def initialize(name, address, phone_number, review)
         @name = name 
         @address = address
-        @phone_number = phone_number 
+        @phone_number = phone_number
         @review = review
-      #   @@all << self 
+      #   @@gyms << self 
     end 
 
     # def self.all 
