@@ -7,11 +7,11 @@
         @address = address
         @phone_number = phone_number
         @review = review
-      #   @@gyms << self 
+        @@gyms << self 
     end 
 
-    # def self.all 
-    #     @@all 
+    # def self.gyms
+    #     @@gyms 
     # end 
 
  end 

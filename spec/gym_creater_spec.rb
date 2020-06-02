@@ -2,11 +2,6 @@ require_relative '../lib/GymFinder/gym'
 require 'pry'
 $VERBOSE = nil
 RSpec.describe GymFinder::Gym do 
-
-     # I want the gym to have a name attribute
-     # I want the gym to have a address attribute
-     # I want the gym to have a phone number attribute
-     # I want the gym to have a review attribute
      describe '@@gyms' do 
         it 'creates a class variable and assigns it a value of an empty array' do 
             expect(GymFinder::Gym.class_variable_get(:@@gyms)).to be_a(Array)
@@ -14,7 +9,10 @@ RSpec.describe GymFinder::Gym do
         
         it 'fails if the length of the array is greater than 1' do 
             expect(GymFinder::Gym.class_variable_get(:@@gyms)).to match_array([])
-            #  binding.pry
+        end 
+         # I want to add every new instance of gym into my class variable upon initialization 
+        it 'adds the instance of gym into the class variable upon initialization' do 
+            expect(GymFinder::Gym.class_variable_get(:@@gyms)).to match([GymFinder::Gym.new(@name, @address, @phone_number, @review)])
         end 
     end 
 
@@ -36,11 +34,13 @@ RSpec.describe GymFinder::Gym do
         it 'sets the review with an instance variable @review' do
             expect(muscles.instance_variable_get(:@review)).to eq("Would you like some milk with that whey?")
         end 
-        
-        it 'collects all instances of gyms in a class variable' do
-            expect(muscles.all.class = Array)
-        end 
     end 
+
+     # I want the gym to have a name attribute
+     # I want the gym to have a address attribute
+     # I want the gym to have a phone number attribute
+     # I want the gym to have a review attribute
+
 
 
  end 

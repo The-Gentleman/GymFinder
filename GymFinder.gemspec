@@ -7,15 +7,15 @@ Gem::Specification.new do |spec|
   spec.email         = ["zraja4402@gmail.com"]
 
   spec.summary       = %q{"Allows the user to select a gym and view relevent information."}
-  spec.homepage      = "https://github.com/The-Gentleman/GymFinder"
+  spec.homepage      = "https://github.com/The-Gentleman/GymFinder-CLI"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/The-Gentleman/GymFinder"
-  spec.metadata["changelog_uri"] = "https://github.com/The-Gentleman/GymFinder"
+  spec.metadata["source_code_uri"] = "https://github.com/The-Gentleman/GymFinder-CLI"
+  spec.metadata["changelog_uri"] = "https://github.com/The-Gentleman/GymFinder-CLI"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
