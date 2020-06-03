@@ -1,4 +1,4 @@
-require_relative 'lib/GymFinder/version'
+require_relative 'lib/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "GymFinder"
@@ -31,5 +31,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry', '~> 0.13.1'
   spec.add_development_dependency 'bundler', '~> 2.1', '>= 2.1.4'
   spec.add_development_dependency 'tty-prompt', '~> 0.21.0'
+  spec.add_development_dependency 'rubysl-open-uri', '~> 2.0'
 
 end

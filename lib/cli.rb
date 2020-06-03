@@ -1,4 +1,4 @@
-class GymFinder::CLI
+class CLI
     
     def greeting
         puts "Hi!"
@@ -7,7 +7,6 @@ class GymFinder::CLI
 
     def gym_menu
         prompt = TTY::Prompt.new
-        puts "Please select a gym:"
         user_input = prompt.select("Please select a gym:", ["Blink", "Harbor Fitness"])
         puts user_input
     end 

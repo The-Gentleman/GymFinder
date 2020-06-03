@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require './lib/enviornment.rb'
+require './lib/environnment.rb'
 
-GymFinder::CLI.new.greeting
+CLI.new.greeting
 

@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "./lib/GymFinder/gym"
+require "./lib/gym"
 
 
 
