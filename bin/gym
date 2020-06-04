@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require './lib/environnment.rb'
+require './lib/environment.rb'
 
 CLI.new.greeting
 
