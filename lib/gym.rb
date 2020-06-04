@@ -1,4 +1,3 @@
- require_relative 'environment.rb'
  class Gym 
     @@gyms = []
      attr_reader :name, :address, :workout_type, :num_of_stars 
@@ -9,9 +8,10 @@
         @num_of_stars = num_of_stars
         @workout_type = workout_type
         @@gyms << self 
-    end 
+    end     
+     # I need an array of gyms for the cli class
 
-    
+
 
     def self.gyms
       @@gyms 
