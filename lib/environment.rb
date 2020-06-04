@@ -1,5 +1,3 @@
-$LOAD_PATH << '.'
-
 require 'nokogiri'
 require 'pry'
 require 'tty-prompt'
