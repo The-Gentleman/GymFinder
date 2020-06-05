@@ -1,5 +1,4 @@
 class CLI
-    
     def greeting
         puts "Hi!"
         gym_menu

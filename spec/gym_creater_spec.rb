@@ -1,9 +1,9 @@
 require_relative '../lib/gym'
-require_relative '../lib/scraper'
+# require_relative '../lib/scraper'
 require 'pry'
 $VERBOSE = nil
 RSpec.describe Gym do 
-    let (:muscles) {Gym.new("Muscles", "123 Squat St", "HITT", 4.0(500+))}
+    let (:muscles) {Gym.new("Muscles", "123 Squat St", "HITT", 4.0)}
 
     describe '@@gyms' do 
         it 'creates a class variable array' do 
