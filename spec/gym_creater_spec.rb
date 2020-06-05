@@ -1,5 +1,3 @@
-require_relative '../lib/gym'
-# require_relative '../lib/scraper'
 require 'pry'
 $VERBOSE = nil
 RSpec.describe Gym do 
