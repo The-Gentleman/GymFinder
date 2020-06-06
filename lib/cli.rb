@@ -1,6 +1,6 @@
 class CLI
     def greeting
-        puts "Hi!"
+        puts "Welcome to GymFinder!"
         gym_menu
     end  
 

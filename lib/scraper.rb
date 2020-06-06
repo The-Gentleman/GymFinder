@@ -1,7 +1,6 @@
-# require_relative './environment' 
 class Scraper
     def self.get_page
-         Nokogiri::HTML(open("https://classpass.com/search/brooklyn/fitness-classes/6FFkjtq6yio"))
+        Nokogiri::HTML(open("https://classpass.com/search/brooklyn/fitness-classes/6FFkjtq6yio"))
     end 
 
     def self.gym_info

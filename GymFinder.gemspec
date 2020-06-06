@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.email         = ["zraja4402@gmail.com"]
 
   spec.summary       = %q{"Allows the user to select a gym and view relevent information."}
-  spec.homepage      = "https://github.com/The-Gentleman/GymFinder-CLI"
+  spec.homepage      = "https://github.com/The-Gentleman/GymFinder"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/The-Gentleman/GymFinder-CLI"
-  spec.metadata["changelog_uri"] = "https://github.com/The-Gentleman/GymFinder-CLI"
+  spec.metadata["source_code_uri"] = "https://github.com/The-Gentleman/GymFinder"
+  spec.metadata["changelog_uri"] = "https://github.com/The-Gentleman/GymFinder"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -29,9 +29,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rspec", "~> 3.2"
-  spec.add_development_dependency 'nokogiri', '~> 1.6', '>= 1.6.8'
-  spec.add_development_dependency 'pry', '~> 0.13.1'
   spec.add_development_dependency 'bundler', '~> 2.1', '>= 2.1.4'
   spec.add_development_dependency 'tty-prompt', '~> 0.21.0'
   spec.add_development_dependency 'rubysl-open-uri', '~> 2.0'
+  spec.add_development_dependency "pry"
+  spec.add_dependency "nokogiri"
 end
