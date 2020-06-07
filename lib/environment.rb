@@ -9,7 +9,6 @@ require_relative './gym'
 require_relative './scraper'
 
 
-
 module GymFinder
     class Error < StandardError; end
     # Your code goes here...

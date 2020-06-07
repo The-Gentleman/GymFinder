@@ -11,10 +11,11 @@ class Scraper
             gym_address = section.css("div._3oAhZ5phwNNDu5r1BFcnt1.text--ellipsis").text
             gym_workout_type = section.css("div._30U6zfyhNyRibTpCmWzMDd.text--ellipsis").text.gsub(/...\z/,'')
             gym_num_of_stars = section.css("div.ratings.ratings--display._24_UanE3ZZOqnMtqOsSek6").text
-            Gym.new(gym_name, gym_address, gym_workout_type, gym_num_of_stars)
+            gym_array << Gym.new(gym_name, gym_address, gym_workout_type, gym_num_of_stars)
             $name_array << gym_name
         end 
         gym_array
     end 
-     gym_info
+    #  gym_info
+    # binding.pry
 end 

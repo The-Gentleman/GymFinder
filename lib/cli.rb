@@ -6,7 +6,7 @@ class CLI
 
     def gym_menu
         prompt = TTY::Prompt.new
-        user_input = prompt.select("Please select a gym:", $name_array)
+        user_input = prompt.select("Please select a gym:", Gym.display_gym_names)
         puts user_input
     end 
 
