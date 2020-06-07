@@ -1,3 +1,4 @@
+require_relative './gym'
 class CLI
     def greeting
         puts "Welcome to GymFinder!"
@@ -7,7 +8,6 @@ class CLI
     def gym_menu
         prompt = TTY::Prompt.new
         user_input = prompt.select("Please select a gym:", Gym.display_gym_names)
-        puts user_input
+        binding.pry
     end 
-
 end 
