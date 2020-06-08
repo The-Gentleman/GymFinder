@@ -18,7 +18,5 @@ class Gym
     def self.display_gym_names
       Scraper.gym_info.map{|gym|gym.name}
     end 
-    # I want those  names to display the scraped data
 
-
-  end 
+end 
