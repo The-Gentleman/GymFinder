@@ -1,8 +1,6 @@
 # GymFinder
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/GymFinder`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to your new ge, GymFinder! Using data scraped off of an online fitness site, classpass, I've created a command line interface that allows a user to view a list of gyms. Upon selecting a gym, the user then sees a display of a gyms address, workout style, and average star rating. To experiment with that code, run `bin/gym` for an interactive prompt.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Enter bin/gym to start the CLI.
 
 ## Development
 
