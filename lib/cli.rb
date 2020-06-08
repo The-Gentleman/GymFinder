@@ -1,4 +1,3 @@
-require_relative './gym'
 class CLI
     def greeting
         puts "Welcome to GymFinder!"
@@ -8,6 +7,7 @@ class CLI
     def gym_menu
         prompt = TTY::Prompt.new
         user_input = prompt.select("Please select a gym to view its address, type of workout, and rating.", Gym.display_gym_names, cycle: true)
+       
         Gym.gyms.select do |gym_obj|
             if user_input == gym_obj.name 
                 puts "This gym is located at #{gym_obj.address}"
@@ -16,6 +16,7 @@ class CLI
                 break 
             end 
         end 
+        
         more_gyms_or_exit
     end
 

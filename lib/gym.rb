@@ -1,4 +1,3 @@
-require_relative './scraper'
 class Gym 
     @@gyms = []
      attr_reader :name, :address, :workout_type, :num_of_stars 
