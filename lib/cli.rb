@@ -11,7 +11,6 @@ class CLI
         Gym.gyms.select do |gym_obj|
             if user_input == gym_obj.name 
                 puts "This gym is located at #{gym_obj.address}"
-                puts "The workout style is #{gym_obj.workout_type}."
                 puts gym_obj.num_of_stars
                 break 
             end 
