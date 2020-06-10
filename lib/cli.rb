@@ -6,7 +6,7 @@ class CLI
 
     def gym_menu
         prompt = TTY::Prompt.new
-        user_input = prompt.select("Please select a gym to view its address, type of workout, and rating.", Gym.display_gym_names, cycle: true)
+        user_input = prompt.select("Please select a gym to view its address and rating.", Gym.display_gym_names, cycle: true)
        
         Gym.gyms.select do |gym_obj|
             if user_input == gym_obj.name 
@@ -15,7 +15,6 @@ class CLI
                 break 
             end 
         end 
-        
         more_gyms_or_exit
     end
 

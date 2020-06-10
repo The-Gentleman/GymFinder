@@ -33,5 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'tty-prompt', '~> 0.21.0'
   spec.add_development_dependency 'rubysl-open-uri', '~> 2.0'
   spec.add_development_dependency "pry"
-  spec.add_dependency "nokogiri"
+  spec.add_dependency 'nokogiri'
 end

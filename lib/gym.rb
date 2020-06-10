@@ -1,6 +1,6 @@
 class Gym 
   @@gyms = []
-   attr_reader :name, :address, :workout_type, :num_of_stars 
+   attr_reader :name, :address, :num_of_stars 
    def initialize(name, address, num_of_stars)
       @name = name 
       @address = address
