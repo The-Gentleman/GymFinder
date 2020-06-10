@@ -1,7 +1,11 @@
 require 'pry'
 $VERBOSE = nil
 RSpec.describe Gym do 
+<<<<<<< HEAD
     let (:muscles) {Gym.new("Muscles", "123 Squat St",  4.0)}
+=======
+    let (:muscles) {Gym.new("Muscles", "123 Squat St",4.0)}
+>>>>>>> e99de6798b8f35fc96586ab80c0572fd5f72d238
 
     describe '@@gyms' do 
         it 'creates a class variable array' do 
