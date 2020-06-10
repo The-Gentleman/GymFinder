@@ -1,6 +1,6 @@
 # GymFinder
 
-Welcome to your new CLI gem, GymFinder! Using data scraped off of an online fitness site, classpass, I've created a command line interface that allows a user to view a list of gyms. Upon selecting a gym, the user then sees a display of a gyms address, workout style, and average star rating. To experiment with that code, run `bin/gym` for an interactive prompt.
+Welcome to your new CLI gem, GymFinder! Using data scraped off of an online fitness site, classpass, I've created a command line interface that allows a user to view a list of gyms. Upon selecting a gym, the user then sees a display of a gyms address and an average star rating. To experiment with that code, run `bin/gym` for an interactive prompt.
 
 ## Installation
 
