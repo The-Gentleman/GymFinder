@@ -9,6 +9,7 @@ class Scraper
             gym_num_of_stars = "#{stars[1]} people rated this gym #{stars[0]} stars!"
             Gym.new(gym_name, gym_address, gym_num_of_stars)
             cookies = "They are delicious"
+            brownies = "They are also delicious"
         end 
         
     end 
